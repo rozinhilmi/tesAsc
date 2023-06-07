@@ -17,8 +17,7 @@ const Login = () => {
       toast({
         title: `username atau password tidak boleh kosong`,
         status: 'error',
-        isClosable: true,
-        duration:1000
+        duration:3000
       })
     }
     else{ 

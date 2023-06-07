@@ -21,8 +21,7 @@ const SignUp =  () => {
       toast({
         title: `semua form harus terisi`,
         status: 'error',
-        isClosable: true,
-        duration:1000
+        duration:3000
       })
     }
     else{
@@ -56,8 +55,7 @@ const SignUp =  () => {
         toast({
           title: res.status,
           status: 'error',
-          isClosable: true,
-          duration:2000
+          duration:3000
         })
       }
       else{
@@ -66,8 +64,7 @@ const SignUp =  () => {
             toast({
               title: `Berhasil Sign Up ke Fakestore APi method POST add`,
               status: 'success',
-              isClosable: true,
-              duration:1000
+              duration:3000
             })
             console.log(res)
           }) 
